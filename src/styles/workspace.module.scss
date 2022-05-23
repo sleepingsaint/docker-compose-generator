@@ -1,0 +1,33 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    .sidebar {
+        width: 300px;
+        height: 100%;
+        div {
+            height: 20px;
+            padding: 4px;
+            border: 1px solid #1a192b;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: grab; 
+        }
+        background-color: #dbd7d7;
+    }
+
+    .workspace {
+        flex: 1;
+        height: 100%;
+    }
+
+    .properties {
+        width: 500px;
+        height: 100%;
+        background-color: #e8dbdb;
+    }
+}
